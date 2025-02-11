@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Isolir Pelanggan PPPoE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #000000, #8B0000); /* Background gradient hitam dan merah */
+            color: #fff;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            backdrop-filter: blur(10px); /* Efek blur untuk kontainer */
+        }
+        h1 {
+            color: #ff4d4d;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .info {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .info p {
+            margin: 5px 0;
+        }
+        .contact {
+            font-size: 14px;
+            color: #ddd;
+        }
+        .contact a {
+            color: #ff4d4d;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+            margin: 10px;
+        }
+        .payment-method {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .payment-method img {
+            width: 40px;
+            height: auto;
+            margin: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Internet Anda Saat Ini Sedang Diisolir</h1>
+        <p>Maaf, Internet Anda saat ini sedang diisolir karena belum melakukan pembayaran. Silakan lakukan pembayaran untuk mengaktifkan kembali layanan.</p>
+        
+        <div class="info">
+            <p><strong>Pembayaran via Bank BRI:</strong></p>
+            <div class="payment-method">
+                <img src="https://i.ibb.co.com/ks6FBtBG/bri1.png" alt="Logo BRI" class="logo">
+                <p>596101021505533 (An. JOKO KRISDIANTO)</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <p><strong>Pembayaran via DANA:</strong></p>
+            <div class="payment-method">
+                <img src="https://i.ibb.co.com/6cKmTQFX/dana.png" alt="dana" class="logo">
+                <p>085257787667 (An. JOKO KRISDIANTO)</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <p><strong>Konfirmasi Pembayaran:</strong></p>
+            <div class="payment-method">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Logo WhatsApp" class="logo">
+                <p><a href="https://wa.me/6281310830895" target="_blank">+62 6281310830895</a></p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p>Jika ada pertanyaan, hubungi kami di <a href="https://wa.me/6281310830895">WA ADMIN</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
